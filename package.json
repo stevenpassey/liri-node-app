@@ -1,0 +1,26 @@
+{
+  "name": "liri-node-app",
+  "version": "0.9.8",
+  "description": "School Assignment",
+  "main": "liri.js",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "node-spotify-api": "^1.0.7",
+    "twitter": "^1.7.1",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenpassey/liri-node-app.git"
+  },
+  "author": "Steven Passey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenpassey/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/stevenpassey/liri-node-app#readme"
+}
