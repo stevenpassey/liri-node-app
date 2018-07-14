@@ -12,7 +12,15 @@ catch(err)
 	process.exit();
 }
 var client = new Twitter(keys.twitter);
-const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+try
+{
+	const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+}
+catch(err)
+{
+	console.log(err.message + " Try running: 'npm install'");
+	process.exit();
+}
 var fs = require("fs");
 
 var message;
