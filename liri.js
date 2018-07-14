@@ -14,7 +14,7 @@ catch(err)
 var client = new Twitter(keys.twitter);
 try
 {
-	const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+	var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 }
 catch(err)
 {
